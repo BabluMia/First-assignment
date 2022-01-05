@@ -3,31 +3,30 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 h1{
     color: #34495e;
     font-size: 58px;
 }
 h2{
-    font: 45px;
+    font-size: 45px;
     color: #30336b;
 }
 h3{
     color: #227093;
-    font-size: 35px;
 }
 p{
     color: #2c3e50;
-    margin: 30px 0px;
 }
 img{
-    width: 100%;
+    width: 90%;
 }
 .d-color1{
     color: #0d9757;
 }
 .d-color2{
-    color: #ffd32a;
+    color: #726a4b;
 }
 .btn{
     padding: 10px 35px;
@@ -37,7 +36,6 @@ img{
     border-radius: 8px;
 }
 section{
-    margin-bottom: 150px;
     margin: 20px 200px;
 }
 .flex{
@@ -52,6 +50,43 @@ section{
     padding-left: 15px;
 }
 .banner-img{
-    margin: -100px 0px 0px 120px;
+    margin: -100px -20px 0px 100px;
+}
+.t-center{
+    text-align: center;
+}
+.m-t-40{
+    margin-top: 40px;
+}
+.m-b-40{
+    margin-bottom: 40px ;
+}
+.card{
+    align-items: start;
+    padding: 15px;
+}
+.card .box{
+    width: 120px;
+    height: 120px;
+}
+.card .box img{
+    width: 100%;
+}
+.single-card{
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.card-margin{
+    margin: 0 5%;
+}
+.card-1{
+    background-color: rgba(242, 252, 249, 0.897);
+}
+.card-2{
+    background-color: rgb(222, 231, 229);
+}
+.card-3{
+    background-color:rgb(192, 218, 233) ;
 }
 
